@@ -45,7 +45,7 @@ nav{
     cursor: pointer;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 749px) {
     .menu{
         display: none;
         position: absolute;
@@ -112,6 +112,7 @@ nav{
         flex-wrap: wrap;
     }
 }
+
 @media screen and (max-width: 399px){
     .header_text{
         width: fit-content;
@@ -120,6 +121,8 @@ nav{
         flex-wrap: wrap;
     }
 }
+
+
 @media screen and (max-width: 378px){
     .header_text{
         width: fit-content;
@@ -135,6 +138,14 @@ nav{
     padding: 2rem;
     font-size: 3rem;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 395px){
+    .header_text .title{
+        margin-right: 8rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .header_text p{

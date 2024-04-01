@@ -29,31 +29,27 @@
     }
 }
 
-@media only screen and(max-width: 399px){
+@media only screen and(max-width: 398px){
     .donatio_pic{
-        max-width: 200px;
+        max-width: 400px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
-@media only screen and(max-width: 388px){
-    .donatio_pic{
-        max-width: 150px;
-    }
-    .donatio_pic img{
-        width: 50%;
-    }
-}
+
 .donatio_pic img{
-    padding: 2rem;
-    max-width: 400px;
+    padding-right: 1rem;
+    max-width: 380px;
 }
 @media only screen and(max-width: 414px){
     .donatio_pic img{
-        width: 50%;
+        width: 40%;
     }
 }
+
 @media only screen and(max-width: 320px){
     .donatio_pic img{
-        width: 50%;
+        width: 40%;
     }
 }
 .donation_text{

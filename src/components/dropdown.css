@@ -11,6 +11,7 @@
     border: none;
     cursor: pointer;
     visibility: hidden;
+    margin-left: 1.5rem;
   }
   
   .dropdown-toggle:hover {
@@ -47,7 +48,7 @@
     color: #fff;
   }
   
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 749px) {
     .dropdown-toggle {
       visibility: visible;
     }
